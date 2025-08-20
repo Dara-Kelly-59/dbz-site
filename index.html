@@ -6,9 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta http-equiv="Content-Security-Policy" content="
   default-src 'self';
-  script-src 'self' https://widget.intercom.io https://js.intercomcdn.com;
-  style-src 'self' 'unsafe-inline' https://js.intercomcdn.com;
-  frame-src https://player.vimeo.com;
+  script-src 'self' https://widget.intercom.io https://js.intercomcdn.com https://app.intercom.io;
+  style-src 'self' 'unsafe-inline' https://js.intercomcdn.com https://app.intercom.io;
+  frame-src https://player.vimeo.com https://www.youtube.com https://app.intercom.io https://intercom.help https://*.intercom-messenger.com;
+  connect-src 'self' https://widget.intercom.io https://js.intercomcdn.com https://api.intercom.io https://uploads.intercomcdn.com https://app.intercom.io https://*.intercom-messenger.com;
+  img-src 'self' data: https://js.intercomcdn.com https://uploads.intercomcdn.com https://app.intercom.io https://*.intercom-messenger.com;
 ">
   <title>Dragon Ball Z – Expandable Sections</title>
   <link rel="stylesheet" href="styles.css">
