@@ -2,6 +2,8 @@
   window.intercomSettings = {
     api_base: "https://api-iam.intercom.io",
     app_id: "ejfa6fvs",
+    user_id: "90210"
+    email: "daraklly31@gmail.com"
   };
 
 
